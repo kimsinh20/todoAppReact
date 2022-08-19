@@ -1,0 +1,54 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header_todo {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 650;
+  height: 65px;
+  line-height: 65px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.todo {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todoItem {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: orangered;
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+input {
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
